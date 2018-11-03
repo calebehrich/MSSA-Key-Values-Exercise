@@ -10,7 +10,7 @@ namespace KeyValues
     {
         static void Main(string[] args)
         {
-            var d = new MyDictionary();
+            var d = new MyDictionary<int>();
             try
             {
                 Console.WriteLine(d["Cats"]);
